@@ -641,6 +641,7 @@ async def main():
         print(f'异常捕获:{e}')
         print('请检查网络环境,(开启科学上网)重试!!!')
         # input('按回车键重试!!!')
+
         # await main()
 
 

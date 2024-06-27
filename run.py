@@ -639,7 +639,6 @@ async def main():
         if '环境变量' in str(e):
             return
         print(f'异常捕获:{e}')
-        
         print('请检查网络环境,(开启科学上网)重试!!!')
         # input('按回车键重试!!!')
 
